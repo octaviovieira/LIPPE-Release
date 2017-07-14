@@ -42,12 +42,12 @@ sen(n:real):real;           //Seno
 cos(n:real):real;           //Cosseno
 tan(n:real):real;           //Tangente
 exp(n:real):real;           //Exponencial
-log(n:real):real;           //Logaritmo [base 10]
+log(n,b:real):real;           //Logaritmo [base 10]
 ln(n:real):real;            //Logaritmo natural
 rzq(n:real):real;           //Raiz quadrada
 piso(n:real):inteiro;       //Piso
 teto(n:real):inteiro;       //Teto
-aleat(i,f:inteiro):inteiro; //Numero aleatório
+aleat(i,f:inteiro):inteiro; //Número aleatório
 
 /*FUNÇÕES SOBRE TEXTOS*/
 
@@ -56,6 +56,7 @@ concat(t1:texto;t2:texto;...;tn:texto):texto; //Concatenacao
 cmp(t1,t2:texto):inteiro;                     //Comparacao
 tcxa(t:texto):texto;                          //Caixa Alta
 tcxb(t:texto):texto;                          //Caixa Baixa
+format(n:real;p:inteiro);                     //Formatação Número IR
 
 /*FUNÇÕES SOBRE CARACTERES*/
 
