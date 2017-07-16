@@ -9,6 +9,7 @@ fim;
 
 //ESTRUTURA 'CASO'
 caso escalar seja
+inicio
     valor_1: //Comandos
     valor_2: inicio
             //Comandos
