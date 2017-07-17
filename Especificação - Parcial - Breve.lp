@@ -66,6 +66,9 @@ ascii(c:caractere):inteiro; //Codigo ASCII por caractere
 cxa(c:caractere):caractere; //Caixa Alta
 cxb(c:caractere):caractere; //Caixa Baixa
 
+/*UTILITÁRIOS*/
+limpar(); //Limpeza do Console
+
 /*ENTRADA E SAÍDA*/
 
 leia(variavel_1,variavel_2,...,variavel_N);
