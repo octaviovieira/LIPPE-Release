@@ -55,16 +55,16 @@ aleat(i,f:inteiro):inteiro; //Número aleatório
 compr(t:texto):inteiro;                       //Comprimento
 concat(t1:texto;t2:texto;...;tn:texto):texto; //Concatenacao
 cmp(t1,t2:texto):inteiro;                     //Comparacao
-tcxa(t:texto):texto;                          //Caixa Alta
-tcxb(t:texto):texto;                          //Caixa Baixa
+maiuscs(t:texto):texto;                       //Caixa Alta
+minuscs(t:texto):texto;                       //Caixa Baixa
 format(n:real;p:inteiro):texto;               //Formatação Número IR
 
 /*FUNÇÕES SOBRE CARACTERES*/
 
 carac(a:inteiro):caractere; //Caractere por codigo ASCII
 ascii(c:caractere):inteiro; //Codigo ASCII por caractere
-cxa(c:caractere):caractere; //Caixa Alta
-cxb(c:caractere):caractere; //Caixa Baixa
+maiusc(c:caractere):caractere; //Caixa Alta
+minusc(c:caractere):caractere; //Caixa Baixa
 
 /*UTILITÁRIOS*/
 limpar(); //Limpeza do Console
