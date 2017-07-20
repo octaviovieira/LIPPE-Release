@@ -68,6 +68,7 @@ minusc(c:caractere):caractere; //Caixa Baixa
 
 /*UTILITÁRIOS*/
 limpar(); //Limpeza do Console
+pausar(); //Pausa na execução
 
 /*ENTRADA E SAÍDA*/
 
