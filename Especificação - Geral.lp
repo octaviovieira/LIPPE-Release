@@ -141,6 +141,12 @@ valor1 <= valor2
 
 /** COMANDOS **/
 
+/* PARAR LOOP */
+parar;
+
+/* AVANÇAR PARA A PRÓXIMA ITERAÇÃO DO LOOP */
+continuar;
+
 /* TERMINAR PROCEDIMENTO */
 encerrar;
 
