@@ -1,4 +1,4 @@
-
+Ôªø
 /** TIPOS PRIMITIVOS **/
 inteiro
 caractere
@@ -10,85 +10,85 @@ texto
 arranjo [<tamanho_da_dimensao_1>,...,<tamanho da dimensaoN>] de <tipo_primitivo>
 
 
-/** DECLARA«√O DO PROGRAMA **/
+/** DECLARA√á√ÉO DO PROGRAMA **/
 
 programa nome_do_programa
 
-/** DECLARA«√O DO BLOCO DE CONSTANTES **/
+/** DECLARA√á√ÉO DO BLOCO DE CONSTANTES **/
 constantes
-    <declaraÁıes_de_constantes>
+    <declara√ß√µes_de_constantes>
 
-/** DECLARA«√O DE CONSTANTE COM ESPECIFICA«√O DE TIPO **/
+/** DECLARA√á√ÉO DE CONSTANTE COM ESPECIFICA√á√ÉO DE TIPO **/
 nome_da_constante : <tipo_da_constante> <- <valor_da_constante>;
 
-/** DECLARA«√O CONSTANTES COM INFER NCIA DE TIPO **/
+/** DECLARA√á√ÉO CONSTANTES COM INFER√äNCIA DE TIPO **/
 nome_da_constante <- <valor_da_constante>;
 
-/** DECLARA«√O DO BLOCO DE VARI¡VEIS **/
+/** DECLARA√á√ÉO DO BLOCO DE VARI√ÅVEIS **/
 variaveis
-    <declaraÁıes_de_vari·veis>
+    <declara√ß√µes_de_vari√°veis>
 
-/** DECLARA«√O DE VARI¡VEL **/
+/** DECLARA√á√ÉO DE VARI√ÅVEL **/
 nome_da_variavel : tipo_da_variavel;
 
-/** DECLARA«√O DE VARI¡VEIS COM INICIALIZA«√O **/
+/** DECLARA√á√ÉO DE VARI√ÅVEIS COM INICIALIZA√á√ÉO **/
 nome_da_variavel : tipo_da_variavel <- valor_inicial_da_variavel;
 
-/** DECLARA«√O DE M⁄LTIPLAS VARI¡VEIS DE UM MESMO TIPO **/
+/** DECLARA√á√ÉO DE M√öLTIPLAS VARI√ÅVEIS DE UM MESMO TIPO **/
 nome_da_variavel1, nome_da_variavel2, ..., nome_da_variavelN : <tipo_das_variaveis>;
 
-/** DECLARA«√O DE M⁄LTIPLAS VARI¡VEIS DE UM MESMO TIPO COM UM MESMO VALOR DE INICIALIZA«√O **/
-nome_da_variavel1, nome_da_variavel2, ..., nome_da_variavelN : <tipo_das_variaveis> <- <valor_inicial_daS_vari·veis>;
+/** DECLARA√á√ÉO DE M√öLTIPLAS VARI√ÅVEIS DE UM MESMO TIPO COM UM MESMO VALOR DE INICIALIZA√á√ÉO **/
+nome_da_variavel1, nome_da_variavel2, ..., nome_da_variavelN : <tipo_das_variaveis> <- <valor_inicial_daS_vari√°veis>;
 
-/** DECLARA«√O DO BLOCO DE TORINAS **/
+/** DECLARA√á√ÉO DO BLOCO DE TORINAS **/
 rotinas
-    <declaraÁıes_de_rotinas>
+    <declara√ß√µes_de_rotinas>
 
-/** DECLARA«√O DE ROTINA **/
+/** DECLARA√á√ÉO DE ROTINA **/
 <assinatura_da_rotina>
 inicio
     //COMANDOS
 fim;
 
-/** ASSINATURA DE PROCEDIMENTO COM PAR¬METROS **/
-procedimento nome_do_procedimento(<par‚metros>);
+/** ASSINATURA DE PROCEDIMENTO COM PAR√ÇMETROS **/
+procedimento nome_do_procedimento(<par√¢metros>);
 
-/** ASSINATURA DE PROCEDIMENTO SEM PAR¬METROS **/
+/** ASSINATURA DE PROCEDIMENTO SEM PAR√ÇMETROS **/
 procedimento nome_do_procedimento();
 procedimento nome_do_procedimento;
 
-/** ASSINATURA DE FUN«√O COM PAR¬METROS **/
+/** ASSINATURA DE FUN√á√ÉO COM PAR√ÇMETROS **/
 funcao nome_da_funcao(<parametros>) : <tipo_do_retorno>;
 
-/** ASSINATURA DE FUN«√O SEM PAR¬METROS **/
+/** ASSINATURA DE FUN√á√ÉO SEM PAR√ÇMETROS **/
 funcao nome_da_funcao() : <tipo_do_retorno>;
 funcao nome_da_funcao : <tipo_do_retorno>;
 
-/** DECLARA«√O DE PAR¬METRO **/
+/** DECLARA√á√ÉO DE PAR√ÇMETRO **/
 nome_do_parametro : tipo_do_paramentro
 
-/** DECLARA«√O DE MULTIPLOS PAR¬METROS **/
+/** DECLARA√á√ÉO DE MULTIPLOS PAR√ÇMETROS **/
 nome_do_parametro_1 : tipo_do_paramentro1; nome_do_parametro_2 : tipo_do_paramentro2; ...; nome_do_parametro_N : tipo_do_paramentroN
 
-/** DECLARA«√O DE MULTIPLOS PAR¬METROS DE MESMO TIPO **/
-nome_do_parametro1, nome_do_parametro2, ..., nome_do_parametroN : <tipo_dos_par‚metros>
+/** DECLARA√á√ÉO DE MULTIPLOS PAR√ÇMETROS DE MESMO TIPO **/
+nome_do_parametro1, nome_do_parametro2, ..., nome_do_parametroN : <tipo_dos_par√¢metros>
 
 
-/** OPERADORES ARITIM…TICOS **/
+/** OPERADORES ARITIM√âTICOS **/
 
-/* ADI«√O (+) */
+/* ADI√á√ÉO (+) */
 numero1 + numero2
 
-/* SUBTRA«√O (-) */
+/* SUBTRA√á√ÉO (-) */
 numero1 - numero2
 
-/* MULTIPLICA«√O (*) */
+/* MULTIPLICA√á√ÉO (*) */
 numero1 * numero2
 
-/* DIVIS√O (/) */
+/* DIVIS√ÉO (/) */
 numero1 / numero2
 
-/* M”DULO (%) */
+/* M√ìDULO (%) */
 numero1 % numero2
 
 /* MENOS */
@@ -103,18 +103,18 @@ numero1 % numero2
 /* DECREMENTO */
 -- inteiro1
 
-/** OPERADORES L”GICOS **/
+/** OPERADORES L√ìGICOS **/
 
-/* NEGA«√O (neg)*/
+/* NEGA√á√ÉO (neg)*/
 neg logico1;
 
-/* CONJUN«√O (e) */
+/* CONJUN√á√ÉO (e) */
 logico1 e logico2
 
-/* DISJUN«√O (ou) */
+/* DISJUN√á√ÉO (ou) */
 logico1 e logico2
 
-/* DISJUN«√O EXCLUSIVA */
+/* DISJUN√á√ÉO EXCLUSIVA */
 logico1 ouex logico2
 
 
@@ -144,21 +144,21 @@ valor1 <= valor2
 /* PARAR LOOP */
 parar;
 
-/* AVAN«AR PARA A PR”XIMA ITERA«√O DO LOOP */
+/* AVAN√áAR PARA A PR√ìXIMA ITERA√á√ÉO DO LOOP */
 continuar;
 
 /* TERMINAR PROCEDIMENTO */
 encerrar;
 
-/* RETORNAR VALOR DE FUN«√O */
+/* RETORNAR VALOR DE FUN√á√ÉO */
 retorne valor;
 
-/* OPERADOR DE ATRIBUI«√O */
+/* OPERADOR DE ATRIBUI√á√ÉO */
 identificador <- valor;
 
 /*  */
 
-/** ESTRUTURAS DE SELE«√O **/
+/** ESTRUTURAS DE SELE√á√ÉO **/
 
 //ESTRUTURA 'SE'
 se condicao entao
@@ -197,7 +197,7 @@ inicio
     senao //Comandos
 fim;
 
-/** ESTRUTURAS DE REPETI«√O **/
+/** ESTRUTURAS DE REPETI√á√ÉO **/
 
 //ESTRUTURA 'ENQUANTO'
 enquanto condicao faca
@@ -209,15 +209,15 @@ fim;
 repita
 inicio
     //Comandos
-fim;
+fim
 ate condicao;
 
 /** CONSTRUTORES DA LINGUAGEM **/
 
-/*FUN«’ES MATEM¡TICAS*/
+/*FUN√á√ïES MATEM√ÅTICAS*/
 
 abs(n:real):real;           //Valor absoluto
-pot(b,ex:real):real;        //PotÍncia
+pot(b,ex:real):real;        //Pot√™ncia
 sen(n:real):real;           //Seno
 cos(n:real):real;           //Cosseno
 tan(n:real):real;           //Tangente
@@ -227,29 +227,29 @@ ln(n:real):real;            //Logaritmo natural
 rzq(n:real):real;           //Raiz quadrada
 piso(n:real):inteiro;       //Piso
 teto(n:real):inteiro;       //Teto
-aleat(i,f:inteiro):inteiro; //N˙mero aleatÛrio
+aleat(i,f:inteiro):inteiro; //N√∫mero aleat√≥rio
 
-/*FUN«’ES SOBRE TEXTOS*/
+/*FUN√á√ïES SOBRE TEXTOS*/
 
 compr(t:texto):inteiro;                       //Comprimento
 concat(t1:texto;t2:texto;...;tn:texto):texto; //Concatenacao
 cmp(t1,t2:texto):inteiro;                     //Comparacao
 maiuscs(t:texto):texto;                       //Caixa Alta
 minuscs(t:texto):texto;                       //Caixa Baixa
-format(n:real;p:inteiro):texto;               //FormataÁ„o N˙mero IR
+format(n:real;p:inteiro):texto;               //Formata√ß√£o N√∫mero IR
 
-/*FUN«’ES SOBRE CARACTERES*/
+/*FUN√á√ïES SOBRE CARACTERES*/
 
 carac(a:inteiro):caractere; //Caractere por codigo ASCII
 ascii(c:caractere):inteiro; //Codigo ASCII por caractere
 maiusc(c:caractere):caractere; //Caixa Alta
 minusc(c:caractere):caractere; //Caixa Baixa
 
-/*UTILIT¡RIOS*/
+/*UTILIT√ÅRIOS*/
 limpar(); //Limpeza do Console
-pausar(); //Pausa na execuÁ„o
+pausar(); //Pausa na execu√ß√£o
 
-/*ENTRADA E SAÕDA*/
+/*ENTRADA E SA√çDA*/
 
 leia(variavel_1,variavel_2,...,variavel_N);
 escreva(expressao_1,expressao_2,...,expressao_N);
